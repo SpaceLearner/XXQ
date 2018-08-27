@@ -4,7 +4,7 @@ A repository for the two courses.
 
 请大家在相应的石墨文档中更新自己的工作进度
 
-使用push.sh进行push，pull.sh进行pull
+使用push.sh进行push，pull.sh进行pull,如遇push出现问题请先pull一下再push
 
 ## 汇编接口与课程设计
 
