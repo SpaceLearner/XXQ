@@ -4,6 +4,8 @@ A repository for the two courses.
 
 请大家在相应的石墨文档中更新自己的工作进度
 
+使用push.sh进行push，pull.sh进行pull
+
 ## 汇编接口与课程设计
 
 https://shimo.im/docs/tyjkGykULOApMeyE/ 《汇编与接口设计工作进展报告》，可直接点击链接打开
