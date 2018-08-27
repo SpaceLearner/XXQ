@@ -1,6 +1,7 @@
-XXQ
-├── Doc.md
+../XXQ
+├── DocStructure.md
 ├── README.md
+├── pull.sh
 ├── push.sh
 ├── 汇编与接口课程设计
 │   ├── 1MIPS指令系统与汇编程序设计
@@ -23,4 +24,4 @@ XXQ
     │   └── 8.30.md
     └── README.md
 
-12 directories, 11 files
+12 directories, 12 files
