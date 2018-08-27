@@ -4,7 +4,7 @@ A repository for the two courses.
 
 请大家在石墨文档中记录自己的工作进度：
 
-https://shimo.im/docs/tyjkGykULOApMeyE/ 《工作进展报告》，可复制链接后用石墨文档 App 打开
+https://shimo.im/docs/tyjkGykULOApMeyE/ 《工作进展报告》，可直接点击链接打开
 
 ## 汇编接口与课程设计
 
