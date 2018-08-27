@@ -12,12 +12,11 @@ A repository for the two courses.
 
 ### 开发人员：邹云昊、张帆、钟子岳、宋凌霄、沈翰文、郭嘉琰
 
-##文件结构：
+## 文档结构：
 
 XXQ
 
 ├── Doc.md
-
 ├── README.md
 ├── push.sh
 ├── 汇编与接口课程设计
