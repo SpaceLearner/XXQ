@@ -11,4 +11,3 @@ A repository for the two courses.
 ## 计算机组成原理课程设计
 
 ### 开发人员：邹云昊、张帆、钟子岳、宋凌霄、沈翰文、郭嘉琰
-
