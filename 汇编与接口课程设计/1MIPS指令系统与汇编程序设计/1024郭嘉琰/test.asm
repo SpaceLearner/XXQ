@@ -20,7 +20,7 @@ MAX                 .space      4
 
 main:
         #input number
-        li		$v0,    4 		# $v0   service number = 4
+        li	    $v0,    4 		# $v0   service number = 4
         la	    $a0,    input_string_num   #提示输入数字个数
         syscall
 
