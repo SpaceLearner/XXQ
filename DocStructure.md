@@ -1,9 +1,10 @@
 ../XXQ
-├── 2_day_class.md
 ├── DocStructure.md
 ├── README.md
 ├── pull.sh
 ├── push.sh
+├── 笔记
+│   └── 2_day_class.md
 ├── 汇编与接口课程设计
 │   ├── 1MIPS指令系统与汇编程序设计
 │   │   └── 1024郭嘉琰
@@ -28,4 +29,4 @@
     │   └── 8.30.md
     └── README.md
 
-12 directories, 16 files
+13 directories, 16 files
