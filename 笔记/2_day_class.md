@@ -28,7 +28,7 @@
 #### 原理图
 #### IP
 #### 高层次设计
->SystemGen
+>SystemGenw
 
 >HLSs
 
@@ -37,5 +37,9 @@
 ### 实现
 ### 生成Bitstream
 ### Hardware Debug
+
+## FPGA新方向
+### ZYNQ
+### ZYNQ UltraScale+
 
 
