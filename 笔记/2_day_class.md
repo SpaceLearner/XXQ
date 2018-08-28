@@ -19,9 +19,8 @@
 ### 源文件输入
 
 #### HDL
->Verilog
-
->VHDL
+>>Verilog
+>>VHDL
 
 >System
 
