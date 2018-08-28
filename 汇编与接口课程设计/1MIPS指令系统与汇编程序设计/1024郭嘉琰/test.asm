@@ -5,14 +5,14 @@
 ########################
 
 ######### data segment ##########
-        .data
-input_string_num    .asciiz     "Please input the number of string:\n"
-input_string_buf    .asciiz     "Please input the integers you want:\n"
+.data
+input_string_num:    .asciiz     "Please input the number of string:\n"
+input_string_buf:    .asciiz     "Please input the integers you want:\n"
 
-integer_buf         .space      15
-integer_count       .space      36 
+integer_buf:         .space      15
+integer_count:       .space      36 
 
-MAX                 .space      4
+MAX:                 .space      4
 
 ######### text segment ##########
         .text
@@ -58,7 +58,7 @@ count_loop:
         mult	$t5,    $t7			# $t5 * $t7 = Hi and Lo registers
         mflo	$t7					# copy Lo to $t2
         
-        add     $t6,    &t6,    $t7 # t7 free
+        add     $t6,    $t6,    $t7 # t7 free
         move    $t9,    0($t6)
         addi    $t9,    $t9,    1
         sw		$t9,    0($t6)		# count[i] += 1
