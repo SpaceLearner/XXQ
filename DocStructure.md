@@ -1,4 +1,5 @@
 ../XXQ
+├── 2_day_class.md
 ├── DocStructure.md
 ├── README.md
 ├── pull.sh
@@ -27,4 +28,4 @@
     │   └── 8.30.md
     └── README.md
 
-12 directories, 15 files
+12 directories, 16 files
