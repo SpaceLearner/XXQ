@@ -16,7 +16,18 @@
 
 ## FPGA开发流程
 
->源文件输入
+### 源文件输入
+
+####HDL
+>Verilog
+>VHDL
+>System
+####原理图
+####IP
+####高层次设计
+>SystemGen
+>HLSs
+
 
 >仿真
 
