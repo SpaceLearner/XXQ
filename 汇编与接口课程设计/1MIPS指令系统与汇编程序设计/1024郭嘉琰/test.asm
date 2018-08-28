@@ -1,6 +1,6 @@
 ##
-######## by David Guo
-####     count max
+######## by Guo Jiayan 1120151024
+####     E:     count max
 ##       8-28-2018
 ########################
 
@@ -76,11 +76,32 @@ conti:
 count_end:
         la      $t3,    integer_buf
         sw      $t2,    0($t3)      # clear interger_buf[i]    
-        addi	$t3,    $t3,    4		# $t3 =  t3  +  4 
+        addi	$t3,    $t3,    4       # $t3 =  t3  +  4 
+        
+        beq	$t1,    $t0,    find_max    # branch to input_loop
+        b       input_loop	# branch input_loop
         
 
-        beq	    $t1,    $t0,    done    # branch to input_loop
-        
 find_max:
+        
+        li      $t0,    32
+        la      $t3,    integer_count
+        li      $t1,    0
 
+find_loop:        
+        lw      $t9,    0($t3)
+        lw      $t7,    MAX
+        beq     $t9,    $t7,    output
+        addi	$t3,    $t3,    4	# $t3 = $t3 + 4
+        addi    $t1,    $t1,    1       # $t1++
+        beq     $t3,    $t0,    done
 
+output:
+        li      $v0,    1       #service number = 1
+        move    $a0,    $t1     #$a0 = $t1
+        syscall
+        b       find_loop
+
+done:
+
+##      end of file
