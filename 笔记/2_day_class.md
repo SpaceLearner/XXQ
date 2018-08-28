@@ -19,8 +19,9 @@
 ### 源文件输入
 
 #### HDL
->>Verilog
->>VHDL
+>Verilog
+
+>VHDL
 
 >System
 
@@ -31,15 +32,10 @@
 
 >HLSs
 
-
->仿真
-
->综合
-
->实现
-
->生成Bitstream
-
->Hardware Debug
+### 仿真
+### 综合
+### 实现
+### 生成Bitstream
+### Hardware Debug
 
 
