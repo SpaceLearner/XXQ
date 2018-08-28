@@ -18,14 +18,15 @@
 
 ### 源文件输入
 
-####HDL
+#### HDL
 >Verilog
 >VHDL
 >System
-####原理图
-####IP
-####高层次设计
+#### 原理图
+#### IP
+#### 高层次设计
 >SystemGen
+
 >HLSs
 
 
