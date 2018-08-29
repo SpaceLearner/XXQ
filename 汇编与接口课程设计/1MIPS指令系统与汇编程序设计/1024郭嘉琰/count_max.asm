@@ -6,6 +6,7 @@
 
 ######### data segment ##########
 	.data
+        #.align 1
 input_string_num:    .asciiz     "Please input the number of integers:\n"
 input_string_buf:    .asciiz     "Please input the integers you want:\n"
 output_string:       .asciiz     "Answer is:\n"
