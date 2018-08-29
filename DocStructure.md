@@ -8,15 +8,16 @@
 ├── 汇编与接口课程设计
 │   ├── 1MIPS指令系统与汇编程序设计
 │   │   └── 1024郭嘉琰
+│   │       ├── Coding_Record
 │   │       ├── count_max.asm
+│   │       ├── encoding_record.txt
 │   │       └── fibonaccime.asm
 │   ├── 2简单接口控制模块设计
 │   │   └── Log.md
 │   ├── 3硬件逻辑调试实验
 │   │   └── Log.md
-│   ├── 4日志
-│   │   └── 8.30.md
-│   └── README.md
+│   ├── README.md
+│   └── Record.md
 └── 计算机组成原理课程设计
     ├── 1单周期处理器设计实现
     │   └── 1024郭嘉琰
@@ -29,4 +30,4 @@
     │   └── 8.30.md
     └── README.md
 
-13 directories, 16 files
+12 directories, 18 files
