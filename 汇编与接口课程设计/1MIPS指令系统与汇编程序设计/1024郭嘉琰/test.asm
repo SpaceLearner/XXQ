@@ -6,11 +6,11 @@
 
 ######### data segment ##########
 	.data
-input_string_num:    .asciiz     "Please input the number of string:\n"
+input_string_num:    .asciiz     "Please input the number of integers:\n"
 input_string_buf:    .asciiz     "Please input the integers you want:\n"
-output_string:   .asciiz     "Answer is:\n"
+output_string:       .asciiz     "Answer is:\n"
 cr:		     .asciiz	 "\n"
-padding:	     .asciiz     "         "
+padding:	     .asciiz     "           "		# make sure the boundary is up to a word
 
 integer_buf:         .space      15
 integer_count:       .space      36 
