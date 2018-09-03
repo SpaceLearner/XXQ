@@ -17,11 +17,17 @@
 │   ├── 3硬件逻辑调试实验
 │   │   └── Log.md
 │   ├── README.md
-│   └── Record.md
+│   └── 日志
+│       ├── 郭嘉琰
+│       │   ├── 郭嘉琰第一周日志.html
+│       │   └── 郭嘉琰第一周日志.md
+│       └── 小组日志.md
 └── 计算机组成原理课程设计
     ├── 1单周期处理器设计实现
     │   ├── 1024郭嘉琰
-    │   │   └── test.asm
+    │   │   ├── Sub
+    │   │   ├── test.asm
+    │   │   └── test.v
     │   ├── 1745沈翰文
     │   │   └── test.asm
     │   └── 宋凌霄
@@ -34,4 +40,4 @@
     │   └── 8.30.md
     └── README.md
 
-14 directories, 20 files
+17 directories, 23 files
