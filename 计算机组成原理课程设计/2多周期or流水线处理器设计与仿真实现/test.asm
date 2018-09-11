@@ -14,7 +14,7 @@ result:         .space      4
 
 ##########  text segment    ############
         .text
-        .global main
+        .globl main
 
 main:
     
@@ -79,23 +79,24 @@ Begin:
     #test   bgez
 Second:
     bgez    $t1,    Third
-    addiu   $t1,    1
+    addiu   $t1,    $0,	    1
     j		Second				# jump to Second
     
     #test   bget
 Third:
-    bget    $t1,    Forth
-    addiu   $t1,    1
+    bgtz    $t1,    Forth
+    addiu   $t1,    $t1,    1
     j Third
 
     #test   jal
 Forth:
     jal     Fifth
-
+	
     #test   jr
 Fifth:
-    li		$t1, 	Sixth	# $t1 = Sixth
+    addiu    $t1,   $0,	    0x000030d4			# $t1 = Sixth
+    jr	     $t1
 
 Sixth:
     j Sixth
-   
+    
