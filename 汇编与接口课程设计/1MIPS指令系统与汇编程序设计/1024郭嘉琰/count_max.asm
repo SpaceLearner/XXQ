@@ -20,7 +20,7 @@ MAX:                 .space      4
 
 ######### text segment ##########
         .text
-        .globl main
+        .global main
 
 main:
 
