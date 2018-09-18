@@ -23,6 +23,8 @@
 │       │   ├── Record2.md
 │       │   ├── Record2_1.md
 │       │   ├── Record2_2.md
+│       │   ├── Record3_1.md
+│       │   ├── Record3_2.md
 │       │   ├── 郭嘉琰第一周日志.html
 │       │   ├── 郭嘉琰第一周日志.md
 │       │   └── 郭嘉琰第二周日志1.md
@@ -43,7 +45,10 @@
     ├── 3计算机硬件系统设计与实现
     │   └── Log.md
     ├── 4日志
-    │   └── 8.30.md
+    │   ├── 8.30.md
+    │   └── 郭嘉琰
+    │       ├── Record3_1.md
+    │       └── Record3_2.md
     └── README.md
 
-17 directories, 29 files
+18 directories, 33 files
